@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "name_for_human": "ToDo plugin",
+  "name_for_model": "todo",
+  "description_for_human": "Manage your tasks with this plugin",
+  "description_for_model": "Plugin for managing tasks. It can create, delete, and list tasks.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openai",
+    "url": "https://localhost:3000/openapi.yaml",
+    "is_user_authtenticated": false
+  },
+  "logo_url": "https://localhost:3000/logo.png",
+  "logo_url_for_dark_theme": "https://localhost:3000/logo_dark.png",
+  "logo_url_for_light_theme": "https://localhost:3000/logo_light.png",
+  "contact_email": "ludevvv@gmail.com",
+  "legal_info_url": "https://localhost:3000/legal"
+}
